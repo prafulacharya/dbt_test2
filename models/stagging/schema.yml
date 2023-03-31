@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: snowflake_json_data1
+    description: 'A sample json data'
+    database: KG_PIPELINE
+    schema: DATA
+    tables:
+      - name: KG_DATA
+        description: 'json sting with key and value in pairs'
+      
